@@ -123,4 +123,15 @@ const foodCategories = [
     }
 ];
 
-module.exports  = { foods, foodCategories };
+const foodStatuses = [
+    {
+        "value": "available",
+        "name": "Available"
+    },
+    {
+        "value": "unavailable",
+        "name": "Unavailable"
+    }
+];
+
+module.exports  = { foods, foodCategories, foodStatuses };
